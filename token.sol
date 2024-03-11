@@ -180,7 +180,7 @@ contract Zion is Context, IERC20, Ownable {
     uint256 public _sellFee = 0; // Sell tax
     uint256 public _transferFee = 5; //Transfer tax
 
-    address payable public feeCollectorWallet = payable(0x530071d81E2E7467de1C06984E1545bc9B920c00);
+    address payable public feeCollectorWallet = payable(0xDeb5c5401f8f0f74616D095C472FbD2178B8ccf6);
 
     IUniswapV2Router02 private uniswapV2Router;
     address private uniswapV2Pair;
